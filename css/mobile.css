@@ -1,0 +1,43 @@
+@media (max-width: 900px)
+{
+    body
+    {
+        background-image: url('../images/bg-mobile.svg');
+        width: 375px;
+    }
+    .main
+    {
+        display: inherit;
+        height: auto;
+        padding: 11%;
+    }
+    .main img
+    {
+        display: inherit;
+        width: 100%;
+        height: auto;
+    }
+
+    .main-container h3
+    {
+        color: white;
+        font-family: 'Poppins';
+        font-size: 20px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-container p
+    {
+        color: white;
+        font-family: 'Poppins';
+        font-size: 20px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    footer
+    {
+        justify-content: center;
+    }
+}
